@@ -1,7 +1,7 @@
 const mongoose = require("mongoose");
 
 
-const URI = "mongodb+srv://dbuser:dbuser@crudapi.dzapy.mongodb.net/myFirstDatabase?retryWrites=true&w=majority";
+//const URI = "mongodb://[root:rootpassword]host1[:port1][,...hostN[:portN]][/[defaultauthdb][?options]]";
 
 const connection = async () =>{
 try {
